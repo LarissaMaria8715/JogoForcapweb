@@ -21,7 +21,7 @@ function iniciarJogoDaForca() {
       const letra = prompt(`Palavra: ${estadoAtual}\nLetras tentadas: ${letrasTentadas.join(", ")}\nErros: ${erros}/${maxErros}\nDigite uma letra:`);
 
       if (letra === null) {
-        alert("🚪 Jogo encerrado pelo jogador.");
+        alert("Jogo encerrado pelo jogador.");
         return;
       }
 
